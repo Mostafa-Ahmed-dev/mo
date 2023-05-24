@@ -1,3 +1,12 @@
+import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
+import 'package:shopapp/Core/utils/Cache.dart';
+import 'package:shopapp/Core/utils/DioHelper.dart';
+import 'package:shopapp/Core/utils/Themes.dart';
+import 'package:shopapp/Features/Home/presentation/HomeView.dart';
+import 'package:shopapp/Features/LoginView/presentation/views/LoginView.dart';
+import 'package:shopapp/Features/OnBoardingView/Presentation/views/OnBoardingView.dart';
+
 import 'Core/utils/Observer.dart';
 
 void main() async {
